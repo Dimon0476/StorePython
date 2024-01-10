@@ -1,9 +1,11 @@
 # Интернет магазин на Django
+# Simple Online Shop: Manage Products and Orders with Django
 
 Это полноценный проект интернет-магазина, разработанный на Django.
 В нем я использовал ***AJAX-запросы*** для динамического обновления количества товаров на странице корзины без перезагрузки страницы, а ***asyncio*** я применял для отправки сообщений в Telegram-бота асинхронно, не блокируя основной поток выполнения приложения.
 
 # Установка
+# Installation. You must do the following steps:
 
 1. Клонируйте репозиторий
 ```
@@ -38,12 +40,18 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 Откройте браузер и перейдите по адресу http://127.0.0.1:8000/admin/. Введите имя пользователя и пароль администратора, чтобы войти в панель управления магазином.
+Open your browser and go to http://127.0.0.1:8000/admin/. Enter your administrator username and password to log into your store control panel.
 
 # Готово!
+# Ready! Finish!!!
 Вы успешно установили магазин на Django и готовы начать его использовать!
+You have successfully installed your Django store and are ready to start using it!
 
 # Вклад в проект
+# Contribution to the project
 Если у вас есть предложения по улучшению или вы обнаружили баг, не стесняйтесь создать issue, отправить pull request либо написать напрямую автору. Ваш вклад приветствуется!
+If you have suggestions for improvement or find a bug, feel free to create an issue, send a pull request, or write directly to the author. This will be good!
 
 # Автор
+# Author
 [Dmitry Fyodorov](https://github.com/Dimon0476)
